@@ -97,6 +97,11 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   }
 
+  .btn-size:hover{
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px #262626;
+  }
+
   .ac-btn{
     color: red;
   }
