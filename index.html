@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator-Design</title>
-  </head>
-  <body>
-    <div class="calculator">
-      <input type="text" value="0" />
-      <div>
-        <button>AC</button>
-        <button>DEL</button>
-        <button>%</button>
-        <button>/</button>
-      </div>
-      <div>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>*</button>
-      </div>
-      <div>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button>
-      </div>
-      <div>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
-      </div>
-      <div>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
-        <button>=</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator-Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-body">
+    <input type="text" value="0" class="screen" />
+    <div class="buttons-container">
+      <button class="btn btn-color-1 ac-btn">AC</button>
+      <button class="btn btn-color-1">DEL</button>
+      <button class="btn btn-color-1">%</button>
+      <button class="btn btn-color-3">/</button>
     </div>
-  </body>
+    <div class="buttons-container">
+      <button class="btn btn-color-2">7</button>
+      <button class="btn btn-color-2">8</button>
+      <button class="btn btn-color-2">9</button>
+      <button class="btn btn-color-3">X</button>
+    </div>
+    <div class="buttons-container">
+      <button class="btn btn-color-2">4</button>
+      <button class="btn btn-color-2">5</button>
+      <button class="btn btn-color-2">6</button>
+      <button class="btn btn-color-3">-</button>
+    </div>
+    <div class="buttons-container">
+      <button class="btn btn-color-2">1</button>
+      <button class="btn btn-color-2">2</button>
+      <button class="btn btn-color-2">3</button>
+      <button class="btn btn-color-3">+</button>
+    </div>
+    <div class="buttons-container">
+      <button class="btn-color-2 btn-size">0</button>
+      <button class="btn btn-color-2">.</button>
+      <button class="btn equal-btn">=</button>
+    </div>
+  </div>
+</body>
 </html>

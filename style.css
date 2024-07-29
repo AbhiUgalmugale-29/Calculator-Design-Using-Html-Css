@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    margin-top:40px ;
+  }
+
+  .calculator-body {
+    height: 500px;
+    width: 350px;
+    background: #3d3d5c;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px #4d4d4d;
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screen {
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: right;
+    width: 90%;
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 6px #262626, inset 0 -2px 6px #262626;
+    }
+    
+
+  .buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 0;
+    margin: 3px;
+    border: none;
+    transition: transform 0.1s, box-shadow 0.1s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px #262626;
+  }
+
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px #262626;
+  }
+
+  .btn-color-1 {
+    font-size: 18px;
+    background-color: #cccccc;
+    color: black;
+  }
+
+  .btn-color-2 {
+    font-size: 23px;
+    background-color:#808080 ;
+    color: white;
+  }
+
+  .btn-color-3 {
+    font-size: 26px;
+    background-color: #ff8000;
+    color: white;
+  }
+
+  .btn-color-2:hover{
+    background-color: #999999;
+  }
+
+  .btn-color-3:hover{
+    background-color: #ffa64d;
+  }
+
+  .btn-size{
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin: 3px;
+    border: none;
+    font-size: 23px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+
+  .ac-btn{
+    color: red;
+  }
+
+  .equal-btn{
+    font-size: 26px;
+    background-color: #93C572;
+    color: white;
+  }
+
+  .equal-btn:hover{
+    background-color: #badaa4;
+  }
